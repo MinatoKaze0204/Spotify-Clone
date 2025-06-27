@@ -2,7 +2,7 @@ console.log("Welcome to Spotify");
 
 
 let songIndex = 0;
-let audioElement = new Audio('/songs/505.m4a');
+let audioElement = new Audio('505.m4a');
 let masterPlay = document.getElementById('masterPlay'); 
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -12,13 +12,13 @@ let songItemContainer = Array.from(document.getElementsByClassName('songItem'));
 // console.log(songItemContainer);
 
 let songs = [
-    {songName: "505", filepath: "songs/505.m4a", coverpath: "covers/1.jpg"},
-    {songName: "Back to Friends", filepath: "songs/back to friends.m4a", coverpath: "covers/2.jpg"},
-    {songName: "Disco", filepath: "songs/Disco.m4a", coverpath: "covers/3.jpg"},
-    {songName: "Freaks", filepath: "songs/Freaks.m4a", coverpath: "covers/4.jpg"},
-    {songName: "No One Noticed", filepath: "songs/No One Noticed.m4a", coverpath: "covers/5.jpg"},
-    {songName: "Softcore", filepath: "songs/Softcore.m4a", coverpath: "covers/6.jpg"},
-    {songName: "Tek it", filepath: "songs/Tek it.m4a", coverpath: "covers/7.jpg"},
+    {songName: "505", filepath: "505.m4a", coverpath: "1.jpg"},
+    {songName: "Back to Friends", filepath: "back to friends.m4a", coverpath: "2.jpg"},
+    {songName: "Disco", filepath: "Disco.m4a", coverpath: "3.jpg"},
+    {songName: "Freaks", filepath: "Freaks.m4a", coverpath: "4.jpg"},
+    {songName: "No One Noticed", filepath: "No One Noticed.m4a", coverpath: "5.jpg"},
+    {songName: "Softcore", filepath: "Softcore.m4a", coverpath: "6.jpg"},
+    {songName: "Tek it", filepath: "Tek it.m4a", coverpath: "7.jpg"},
 ]
 // audioElement.play();
 
